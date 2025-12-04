@@ -19,10 +19,10 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 | `uv python list`              | List installed Python versions.                                               |
 | `uv venv`                     | Create a virtual environment (`.venv` by default if configured).              |
 | `uv lock`                     | Generate or update the `uv.lock` file.                                        |
-| `uv pip install <pkg>`        | Use uv's ultra-fast pip backend to install packages (compat with pip syntax). |
-| `uv cache clean`              | Clear cached packages and wheels.                                             |
+| `uv pip install <pkg>`        | Use uv's ultra-fast pip backend to install packages (does not update pyproject.toml & uv.lock). |
 | `uv tool install <package>`   | Install global CLI tools (similar to `pipx install`).                         |
 | `uv tool list`                | List installed tools via uv.                                                  |
 | `uv config --list`            | Show all current uv settings.                                                 |
+
 
 
