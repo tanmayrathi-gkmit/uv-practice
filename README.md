@@ -5,7 +5,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 
-# uv Commands
+# `uv` Commands
 
 | **uv Command**                | **Explanation**                                                               |
 | ----------------------------- | ----------------------------------------------------------------------------- |
@@ -24,5 +24,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 | `uv tool list`                | List installed tools via uv.                                                  |
 | `uv config --list`            | Show all current uv settings.                                                 |
 
+
+1. Using `uv add --dev <package>` for better seperation between development dependencies and other dependencies.
+2. Using `uv add -r requirements.txt` for adding dependencies from requirements.txt.
 
 
